@@ -3,95 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brisanet FWA e 5G - Ricardo Ruan</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <title>Ricardo Ruan - Brisanet 5G</title>
   <style>
     body {
-      font-family: 'Inter', sans-serif;
+      font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #fff9f0;
+      background: #fff8f0;
       color: #333;
     }
-    header, section {
-      padding: 20px;
+    header {
+      background: linear-gradient(90deg, #ff8800, #ff6600);
+      color: white;
+      padding: 2rem;
       text-align: center;
     }
-    header {
-      background: linear-gradient(to right, #ff6a00, #ff9e00);
-      color: white;
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 1rem;
     }
-    h1, h2 {
-      margin-bottom: 10px;
+    .section {
+      margin: 2rem 0;
     }
-    .box {
+    .section h2 {
+      color: #ff6600;
+    }
+    .card {
       background: white;
-      border-radius: 12px;
+      border-radius: 10px;
+      padding: 1rem;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      padding: 20px;
-      margin: 20px auto;
-      max-width: 600px;
+      margin: 1rem 0;
     }
-    .video-container iframe {
+    iframe {
       width: 100%;
       height: 315px;
-      border-radius: 12px;
+      border: none;
+      border-radius: 10px;
     }
-    .button-whatsapp {
-      background-color: #25d366;
+    .whatsapp {
+      display: block;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .whatsapp a {
+      background: #25D366;
       color: white;
-      padding: 15px 25px;
+      padding: 1rem 2rem;
+      border-radius: 30px;
       text-decoration: none;
-      border-radius: 8px;
-      display: inline-block;
-      margin-top: 20px;
       font-weight: bold;
     }
-    img.qrcode {
-      width: 160px;
-      margin-top: 20px;
+    .qr-code {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .qr-code img {
+      width: 180px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Ricardo Ruan | Brisanet Supervisor</h1>
-    <p>Transformando a conexão do interior com tecnologia e velocidade!</p>
+    <h1>Ricardo Ruan - Brisanet Supervisor Comercial</h1>
+    <p>"Onde há foco, não há distração. Vamos além!"</p>
   </header>
+  
+  <div class="container">
+    <section class="section">
+      <h2>O que é FWA?</h2>
+      <div class="card">
+        <p>FWA (Fixed Wireless Access) é a tecnologia que usa sinal sem fio para levar internet rápida até você, mesmo onde a fibra óptica ainda não chegou. Sem cabos, sem limites.</p>
+      </div>
+      <div class="card">
+        <h3>Vantagens da Internet FWA</h3>
+        <ul>
+          <li><strong>Alta Velocidade:</strong> Navegue com rapidez e estabilidade.</li>
+          <li><strong>Mais Alcance:</strong> Ideal para áreas rurais sem fibra.</li>
+          <li><strong>Instalação Fácil:</strong> Ligue e use, sem cabeamento.</li>
+        </ul>
+      </div>
+    </section>
 
-  <section class="box">
-    <h2>O que é FWA?</h2>
-    <p>FWA (Fixed Wireless Access) é a tecnologia que usa sinal sem fio para levar internet rápida até você, mesmo onde a fibra ainda não chegou. Sem cabos, sem limites.</p>
-  </section>
+    <section class="section">
+      <h2>Veja como funciona</h2>
+      <div class="card">
+        <iframe src="https://www.youtube.com/embed/PQXqwWvAvYs" allowfullscreen></iframe>
+      </div>
+      <div class="card">
+        <iframe src="https://www.youtube.com/embed/or0sgBdI_N4" allowfullscreen></iframe>
+      </div>
+    </section>
 
-  <section class="box">
-    <h2>Vantagens da Internet FWA</h2>
-    <ul>
-      <li><strong>Alta Velocidade:</strong> Navegue com rapidez e estabilidade.</li>
-      <li><strong>Mais Alcance:</strong> Ideal para áreas sem fibra.</li>
-      <li><strong>Instalação Fácil:</strong> Ligue e comece a usar!</li>
-    </ul>
-  </section>
+    <div class="qr-code">
+      <h2>Acesse meu site</h2>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://ricardo-149.github.io/Ricardo-149/" alt="QR Code do site">
+    </div>
 
-  <section class="box video-container">
-    <h2>Veja como funciona o FWA</h2>
-    <iframe src="https://www.youtube.com/embed/wTVRA-D-T3E" frameborder="0" allowfullscreen></iframe>
-  </section>
-
-  <section class="box">
-    <h2>Chip 5G Brisanet</h2>
-    <p>Com o chip 5G da Brisanet, você tem mais velocidade, qualidade e cobertura no seu celular.</p>
-  </section>
-
-  <section class="box video-container">
-    <h2>Conheça o Chip 5G</h2>
-    <iframe src="https://www.youtube.com/embed/2_oIS0Ef5-0" frameborder="0" allowfullscreen></iframe>
-  </section>
-
-  <section class="box">
-    <h2>Fale comigo agora</h2>
-    <a href="https://wa.me/message/AJ4ISNXQ3BMUH1" class="button-whatsapp">📲 Fale comigo no WhatsApp</a>
-    <p>Ou escaneie o QR Code abaixo:</p>
-    <img class="qrcode" src="https://api.qrserver.com/v1/create-qr-code/?data=https://ricardo-149.github.io/Ricardo-149/&amp;size=200x200" alt="QR Code para o site">
-  </section>
+    <div class="whatsapp">
+      <a href="https://wa.me/message/AJ4ISNXQ3BMUH1" target="_blank">Fale comigo no WhatsApp</a>
+    </div>
+  </div>
 </body>
 </html>
