@@ -1,4 +1,4 @@
-""<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
@@ -36,21 +36,33 @@
     }
     .section h2 {
       color: #ff6600;
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       margin-bottom: 1rem;
+      text-align: center;
     }
     .card {
       background: white;
       border-radius: 12px;
       padding: 1.5rem;
       box-shadow: 0 4px 14px rgba(0,0,0,0.1);
-      margin-bottom: 1.5rem;
+      margin: 1rem 0;
+      text-align: center;
+    }
+    .card h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.3rem;
+      color: #333;
+    }
+    .icon {
+      font-size: 2rem;
+      color: #ff6600;
     }
     iframe {
       width: 100%;
-      height: 400px;
+      height: 350px;
       border: none;
       border-radius: 12px;
+      margin-bottom: 1rem;
     }
     .whatsapp {
       text-align: center;
@@ -65,13 +77,6 @@
       font-size: 1.2rem;
       box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
     }
-    .qr-code {
-      text-align: center;
-      margin-top: 3rem;
-    }
-    .qr-code img {
-      width: 200px;
-    }
   </style>
 </head>
 <body>
@@ -79,20 +84,44 @@
     <h1>Ricardo Ruan - Brisanet Supervisor Comercial</h1>
     <p>"Onde há foco, não há distração. Vamos além!"</p>
   </header>
-  
+
   <div class="container">
     <section class="section">
-      <h2>O que é FWA?</h2>
+      <h2>Apresentação</h2>
       <div class="card">
-        <p>FWA (Fixed Wireless Access) é a tecnologia que usa sinal sem fio para levar internet rápida até você, mesmo onde a fibra óptica ainda não chegou. Sem cabos, sem limites.</p>
+        <p>Olá, eu sou Ricardo Ruan, Supervisor Comercial da Brisanet 5G. Minha missão é trazer conectividade de alta qualidade para você, seja através da tecnologia FWA (Fixed Wireless Access) ou do 5G Móvel, garantindo internet rápida, estável e acessível onde você estiver.</p>
       </div>
-      <div class="card">
-        <h3>Vantagens da Internet FWA</h3>
-        <ul>
-          <li><strong>Alta Velocidade:</strong> Navegue com rapidez e estabilidade.</li>
-          <li><strong>Mais Alcance:</strong> Ideal para áreas rurais sem fibra.</li>
-          <li><strong>Instalação Fácil:</strong> Ligue e use, sem cabeamento.</li>
-        </ul>
+    </section>
+
+    <section class="section">
+      <h2>Vantagens da Internet FWA</h2>
+      <div class="card"><span class="icon">📶</span>
+        <h3>Alta Velocidade</h3>
+        <p>Navegue com rapidez e estabilidade em todos os seus dispositivos.</p>
+      </div>
+      <div class="card"><span class="icon">🌐</span>
+        <h3>Mais Alcance</h3>
+        <p>Ideal para áreas rurais e locais sem infraestrutura de fibra.</p>
+      </div>
+      <div class="card"><span class="icon">🔌</span>
+        <h3>Instalação Fácil</h3>
+        <p>Sem necessidade de cabeamento. Ligue e comece a usar!</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Vantagens do 5G Móvel</h2>
+      <div class="card"><span class="icon">⚡</span>
+        <h3>Baixa Latência</h3>
+        <p>Ideal para jogos e aplicações em tempo real.</p>
+      </div>
+      <div class="card"><span class="icon">📱</span>
+        <h3>Alta Mobilidade</h3>
+        <p>Acesso rápido onde quer que você esteja.</p>
+      </div>
+      <div class="card"><span class="icon">🔗</span>
+        <h3>Conectividade Massiva</h3>
+        <p>Suporte para vários dispositivos simultaneamente.</p>
       </div>
     </section>
 
@@ -106,14 +135,9 @@
       </div>
     </section>
 
-    <div class="qr-code">
-      <h2>Acesse meu site</h2>
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://ricardo-149.github.io/Ricardo-149/" alt="QR Code do site">
-    </div>
-
     <div class="whatsapp">
       <a href="https://wa.me/message/AJ4ISNXQ3BMUH1" target="_blank">Fale comigo no WhatsApp</a>
     </div>
   </div>
 </body>
-</html>""
+</html>
